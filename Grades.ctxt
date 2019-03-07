@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Grades
+comment0.text=\r\n\ This\ class\ elicits\ student\ and\ grade\ info\ from\ the\ user\ and\ then\ runs\ several\ tests\ on\ it\ to\ determine\ the\ capability\r\n\ of\ the\ student\ to\ pass\ the\ course.\ \ It\ includes\ how\ many\ points\ are\ needed,\ whether\ it\ is\ impossible\ or\ guaranteed\ to\ pass.\r\n\ \r\n\ @author\ Michael\ R.\ Boykin\ \r\n\ @version\ 09/12/2017\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ The\ main\ method\ where\ the\ java\ compiler\ will\ start\ outside\ of\ an\ API.\r\n\ \r\n\ @param\ \ None.\r\n\ @return\ None.\r\n
+comment2.params=
+comment2.target=void\ inputData()
+comment2.text=\r\n\ This\ method\ elicits\ the\ data\ that\ the\ tests\ will\ check\ to\:\r\n\ \r\n\ @param\ \ \ None\r\n\ @return\ \ None\r\n
+comment3.params=
+comment3.target=void\ printReport()
+comment3.text=\r\n\ This\ method\ writes\ the\ initial\ report\ headeter\ information\ and\ then\ calls\ calculateGrades\ to\ finish\ the\ tests.\r\n\ \r\n\ @param\ \ \ None\r\n\ @return\ \ None\r\n
+comment4.params=availablePoints\ studentPoints\ semesterPoints
+comment4.target=void\ calculateGrades(int,\ int,\ int)
+comment4.text=\r\n\ This\ method\ writes\ the\ grade\ check\ tests\ to\ the\ screen\:\r\n\ \r\n\ @param\ \ \ int\ availablePoints\ the\ points\ that\ the\ course\ has\ assigned\ so\ far\ this\ semester.\r\n\ @param\ \ \ int\ studentPoints\ \ \ the\ points\ that\ the\ student\ has\ earned\ so\ far\ this\ semester.\r\n\ @param\ \ \ int\ semesterPoints\ \ the\ points\ that\ the\ course\ will\ be\ assigned\ in\ total\ this\ semester.\r\n\ @return\ \ None\r\n
+numComments=5
